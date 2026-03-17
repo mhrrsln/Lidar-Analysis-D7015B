@@ -158,7 +158,7 @@ def plot_catenary(catenary: np.ndarray, name: str) -> None:
     ax.set_xlabel("x (m)", fontsize=12)
     ax.set_ylabel("y (m)", fontsize=12)
     plt.tight_layout()
-    path = resultsdir / f"{name}_Catenary.png"
+    path = resultsdir / f"{name}_catenary.png"
     plt.savefig(path, dpi=600)
     plt.close()
     print(f" [Task3] saved Catenary Plot → {path}")
