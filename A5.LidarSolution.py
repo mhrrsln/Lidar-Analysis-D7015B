@@ -218,7 +218,7 @@ def process_dataset(name: str, path: str) -> dict:
 
 def generate_readme(all_results: dict) -> None:
 
-    img_dir = resultsdir.name
+    img_dir = "ResultsofA5"
 
     lines = []
     lines.append("Assignment 5 - LIDAR Point Cloud Analysis\n\n")
@@ -277,7 +277,7 @@ def generate_readme(all_results: dict) -> None:
     
     lines.append("Genarated automatically by 'A5LidarSolution.py'\n")
 
-    readme_path = resultsdir / "README.md"
+    readme_path = here / "README.md"
     readme_path.write_text("".join(lines), encoding="utf-8")
     print(f"\n README.md saved → {readme_path}")
 
