@@ -82,4 +82,4 @@ The catenary (over power wire) cluster is identified as the cluster with the lar
  ![dataset2 Catenary](ResultsofA5/dataset2_catenary.png)
 
 
-Genegirated automatically by 'A5.LidarSolution.py'
+Generated automatically by 'A5.LidarSolution.py'
