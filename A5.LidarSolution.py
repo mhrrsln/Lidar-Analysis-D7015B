@@ -275,7 +275,7 @@ def generate_readme(all_results: dict) -> None:
         lines.append(f" | max(y) | {r['catenary_maxy']:<12} |\n\n")
         lines.append(f" ![{name} Catenary]({img_dir}/{name}_catenary.png)\n\n\n")
     
-    lines.append("Genarated automatically by 'A5LidarSolution.py'\n")
+    lines.append("Generated automatically by 'A5LidarSolution.py'\n")
 
     readme_path = here / "README.md"
     readme_path.write_text("".join(lines), encoding="utf-8")
